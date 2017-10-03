@@ -9,14 +9,14 @@ mediaY = mean(y);
 b1 = sum( (x-mediaX) .* (y-mediaY) );
 b1 = b1/sum( (x-mediaX).^2 );
 
-b0 = mediaY - (b1 .* x);
+b0 = mediaY - (b1 .* mediaX);
 
 
 
 
 %Reta de regressão é definida por:
 % ÿ   = b0 + b1x, onde o código que faz isso é:
-dist = b0 + (b1 .* x);
+dist = (b0 + (b1 .* x));
 
   
 end
