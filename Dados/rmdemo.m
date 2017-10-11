@@ -1,6 +1,8 @@
 %fase 2
 close all; clc; clear;
 
+
+global beta;
 %Fazendo operações
 load data;
 X = ones(rows(data),3);
@@ -19,4 +21,11 @@ titulo = ['Coeficiênte de correlação'
   'Nº Quartos e preço: ' num2str(correlacaoNQuartosPreco)];
 title(titulo);
 hold off;
+
+
+xDePreco = [1 1650 3];
+c = xDePreco*beta;
+preco = ['Preço de uma casa medindo 1650 u.m. e com 3 quartos: ' num2str(xDePreco*beta)]
+
+
 

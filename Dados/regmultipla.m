@@ -1,7 +1,7 @@
 function dist=regmultipla(x,y)
-  
-  b = ((x' * x) ^ -1) * x' * y;
-  dist = x*b;
+  global beta;  
+  beta = ((x' * x) ^ -1) * x' * y;
+  dist = x*beta;
   
 end
   
