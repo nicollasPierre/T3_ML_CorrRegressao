@@ -16,13 +16,10 @@ y3 = [6.58;5.76;7.71;8.84;8.47;7.04;5.25;5.56;7.91;6.89;12.50];
 %load data_preg.mat;
 %data_preg = data;
 
+
+%Questão 3
 montaGrafico(x1,y1); %Melhor data set para 
 
 %montaGrafico(x2,y2);
 
 %montaGrafico(x3,y3); %esse dataset não serve para fazer analise
-
-%montaGrafico(data_preg(:,1),data_preg(:,2));
-
-
-

@@ -6,7 +6,7 @@ global beta;
 %Fazendo operações
 load data;
 X = ones(rows(data),3);
-X(:,2:3) = data(:,1:2);%ones | tamanho | nºQuartos = Independente
+X(:,2:3) = data(:,1:2);%(x(:,1) = ones |x(:,2) =  tamanho |x(:,3) =  nºQuartos) = Independente
 Y = data(:,3); % preço = dependente
 correlacaoTamanhoPreco = correlacao(X(:,2),Y);
 correlacaoNQuartosPreco = correlacao(X(:,3),Y);
@@ -25,6 +25,7 @@ hold off;
 
 xDePreco = [1 1650 3];
 c = xDePreco*beta;
+%Resposta Fase 2, questão G na janela de comando
 preco = ['Preço de uma casa medindo 1650 u.m. e com 3 quartos: ' num2str(xDePreco*beta)]
 
 
