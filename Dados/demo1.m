@@ -1,3 +1,4 @@
+%Membros = Daniel Rossato Martini, Matheus Adriano Pereira, Matheus Heiden, Nicollas Pierre Eissmann, Paulo Felipe Piva dos Santos
 close all; clc; clear;
 
 

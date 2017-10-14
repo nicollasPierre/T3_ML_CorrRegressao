@@ -1,3 +1,4 @@
+%Membros = Daniel Rossato Martini, Matheus Adriano Pereira, Matheus Heiden, Nicollas Pierre Eissmann, Paulo Felipe Piva dos Santos
 function dist = regressao(x,y)
 
 % x1 = [10;8;13;9;11;14;6;4;12;7;5]

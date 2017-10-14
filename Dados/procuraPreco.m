@@ -1,3 +1,4 @@
+%Membros = Daniel Rossato Martini, Matheus Adriano Pereira, Matheus Heiden, Nicollas Pierre Eissmann, Paulo Felipe Piva dos Santos
 function preco=procuraPreco(data, tamanho, nQuartos)
   
   for i = 1:rows(data)

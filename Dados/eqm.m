@@ -1,3 +1,4 @@
+%Membros = Daniel Rossato Martini, Matheus Adriano Pereira, Matheus Heiden, Nicollas Pierre Eissmann, Paulo Felipe Piva dos Santos
 function dist=eqm(yObservado, yEstimado)
   
   residuo = (yObservado - yEstimado).^2;
